@@ -1,0 +1,77 @@
+#searchbar {
+display: flex;
+z-index: 3;
+height: 44px;
+border: 1px solid #5f6368;
+box-shadow: none;
+border-radius: 24px;
+margin: 0 auto;
+width: 638px;
+width: 50%;
+max-width: 584px;
+}
+.NavDiv {
+    display: flex;
+    padding-bottom: 50px;
+}
+.Navbar {
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+    display: inline;
+    float:right;
+    padding: 5px;
+  }
+H1 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+form {
+    width: 100%;
+    margin:auto;
+    position:relative;
+}
+.SubmitButton {
+    margin:5px;
+    text-align: center;
+}
+.AdvSearch{
+    display: block;
+    width:100%;
+}
+.AdvSearch input{
+    width:50%;
+    height: 35px;
+}
+label{
+    display:inline-block;
+    width:200px;
+    text-align: center;
+}
+.SplashDiv{
+    display: flex;
+    width:100%;
+    margin:auto;
+    justify-content: center;
+}
+#splash{
+    width:40%;
+    text-align: center;
+}
+#AdvSearchBtn{
+    background: #8ab4f8;
+    border-color: #8ab4f8;
+    color: #202124;
+    padding:12px;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
